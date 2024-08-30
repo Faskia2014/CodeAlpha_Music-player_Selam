@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #8E3E63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.music-player{
+    width: 500px;
+    height: 100vh;
+    background-color: #D2649A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons{
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px;
+    gap: 45px;
+    cursor: pointer;
+    color: #CAE6B2;
+}
+
+input{
+    width: 300px;
+    height: 10px;
+    background: #E59BE9; 
+    -webkit-appearance: none;
+    margin: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color:  #F6FAB9;
+    border-radius: 10px;
+    border: #CAE6B2, 2px;
+    
+
+}
+
+
+
+span{
+    font-size: 20px;
+  
+}
+
+#times{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#music-name{
+    font-size: 2.5rem;
+    color: #F6FAB9;
+    
+
+}
+
+#artist{
+    font-size: 1.5rem;
+    color: #F6FAB9;
+}
+
+
+
